@@ -4,6 +4,8 @@ import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 
 public class MyCustomButton extends JComponent {
+    // 自作のUIコンポーネント
+    // * JButtonの代わりに使うカスタムボタン
     private String label;
     private boolean hovered = false;
     private boolean pressed = false;
