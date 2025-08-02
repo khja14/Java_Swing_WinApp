@@ -47,7 +47,7 @@ public class MyCustomButton extends JComponent {
 
     @Override
     protected void paintComponent(Graphics g) {
-        // 高品質な描画設定
+        // カスタムUIクラスでの画面への描画は、 "Graphics2Dクラス" を使う
         Graphics2D g2 = (Graphics2D) g;
         g2.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
 
